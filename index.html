@@ -8,17 +8,19 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 10px;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
-            height: calc(100vh - 40px);
+            justify-content: center;
+            height: 100vh;
             background-color: #f1f1f1;
         }
         .flower {
-            width: 40%;
+            width: 100%;
+            max-width: 400px;
             text-align: center;
-            margin-left: 20px;
+            margin-bottom: 20px;
         }
         .flower img {
             max-width: 100%;
@@ -28,21 +30,21 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
         .message {
-            width: 50%;
+            width: 100%;
+            max-width: 400px;
             text-align: left;
             padding: 20px;
             background: #ffffff;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            margin-right: 20px;
         }
         .message h1 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #d35400;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         .message p {
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: #333;
             line-height: 1.6;
         }
